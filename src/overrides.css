@@ -1,0 +1,139 @@
+:root {
+  --ink: #000;
+  --muted: #000;
+  --line: #000;
+  --paper: #fff;
+  --teal: #000;
+  --teal-dark: #000;
+  --yellow: #000;
+  --coral: #000;
+}
+
+body,
+.app-shell,
+.sidebar,
+.main-content,
+.budget-card,
+.panel,
+.metric,
+.page-panel,
+.expense-modal,
+.search-box,
+.select-button,
+.ghost-button,
+.filter-button,
+.mobile-menu,
+.icon-button:hover {
+  background: #fff !important;
+  color: #000 !important;
+}
+
+.sidebar,
+.budget-card,
+.panel,
+.metric,
+.page-panel,
+.expense-modal,
+.search-box,
+.select-button,
+.ghost-button,
+.filter-button,
+.mobile-menu {
+  border-color: #000 !important;
+}
+
+.welcome-card,
+.outline-button,
+.primary-button,
+.progress span,
+.bar {
+  background: #000 !important;
+  color: #fff !important;
+}
+
+.brand-mark,
+.metric-icon,
+.insight-icon,
+.expense-symbol,
+.donut,
+.insight,
+.danger-button {
+  background: #000 !important;
+  color: #fff !important;
+}
+
+.donut > div {
+  background: #fff !important;
+  color: #000 !important;
+}
+
+.welcome-card:after {
+  border-color: #fff !important;
+}
+
+.legend-name i,
+.comparison-row i,
+.status-pip,
+.nav-dot {
+  background: #000 !important;
+}
+
+.muted-light,
+.text-button,
+.positive,
+.warning,
+.delete-button,
+.description,
+.expense-info span,
+.expense-date,
+.metric p,
+.metric-change,
+.budget-foot,
+.budget-amount span,
+.workspace-label,
+.eyebrow,
+.profile small,
+.preference small,
+.comparison-row .muted,
+.category-setting svg,
+.profile svg {
+  color: #000 !important;
+}
+
+.danger-button {
+  border: 1px solid #000;
+}
+
+.hero-spark > span {
+  font-size: 0;
+}
+
+.hero-spark > span::after {
+  content: 'INR';
+  font-size: 30px;
+}
+
+.settings-card .preference:first-of-type .select-button {
+  font-size: 0;
+}
+
+.settings-card .preference:first-of-type .select-button::before {
+  content: 'INR';
+  font-size: 13px;
+}
+
+.welcome-card {
+  display: none;
+}
+
+.hero-grid {
+  grid-template-columns: 1fr;
+}
+
+.brand-mark {
+  display: none;
+}
+
+.sidebar nav .nav-item:nth-child(4) {
+  display: none;
+}
