@@ -83,9 +83,9 @@ npx playwright test
 
 ## Live Application URL
 
-The application is currently available locally at [http://localhost:5173/](http://localhost:5173/).
+The public production application is available at [https://medhaexpense-project.vercel.app](https://medhaexpense-project.vercel.app).
 
-A public production deployment has not been configured yet. The project is ready for a static Vercel or Netlify deployment.
+The local development application is available at [http://localhost:5173/](http://localhost:5173/).
 
 ## Data Storage Notice
 
